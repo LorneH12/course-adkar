@@ -1,0 +1,133 @@
+{
+  "id": "adkar",
+  "title": "ADKAR: Diagnose Before You Train",
+  "headline": "Find the barrier.\nChoose the support.",
+  "audience": "Change leads and training managers",
+  "need": "A manager prescribes another course without checking why adoption is blocked.",
+  "outcomes": [
+    "Distinguish the five ADKAR outcomes in workplace evidence.",
+    "Select support that fits the earliest unmet outcome in a fictional case."
+  ],
+  "concepts": [
+    {
+      "title": "Awareness and Desire",
+      "body": "Awareness concerns why the change is needed. Desire concerns a person’s willingness to participate. A person may understand the business reason and still have a concern that affects participation. Listen for the difference."
+    },
+    {
+      "title": "Knowledge and Ability",
+      "body": "Knowledge concerns what to do and how. Ability concerns putting that knowledge into practice. Someone may explain a process but still need guided rehearsal, time, access or coaching to carry it out."
+    },
+    {
+      "title": "Reinforcement",
+      "body": "Reinforcement helps the changed behavior continue. Look for follow-up, feedback and recognition tied to the new way of working. Do not assume a launch announcement or course completion creates sustained adoption."
+    },
+    {
+      "title": "Use evidence, then check again",
+      "body": "ADKAR is Prosci’s model for individual change. It is not a complete change methodology. Use conversations and observed work to locate an early unmet outcome, propose support and revisit the evidence. These original scenarios are not Prosci’s proprietary assessment."
+    }
+  ],
+  "example": {
+    "title": "A new quality-review workflow",
+    "body": "Jordan explains why the workflow matters, wants to use it, and correctly describes the steps. In a practice case Jordan cannot apply the rubric consistently, despite having system access.",
+    "steps": [
+      "Awareness and Desire have supporting evidence.",
+      "The correct explanation supports Knowledge.",
+      "The observed performance gap points to Ability.",
+      "Offer coached practice with feedback, then observe another case."
+    ]
+  },
+  "practice": {
+    "prompt": "Mina says, “I know how the new process works, but nobody has explained why we need it.” What should you investigate first?",
+    "options": [
+      "Ability",
+      "Reinforcement",
+      "Awareness"
+    ],
+    "key": 2,
+    "feedback": "Start by clarifying the need for change and listening to the concern; another how-to course does not answer the stated question."
+  },
+  "draft": {
+    "prompt": "A colleague supports a new process and can explain it, but cannot complete a practice case unaided. Write a support plan and the evidence you would check next.",
+    "label": "Your support plan",
+    "model": "Investigate the Ability barrier through observation. Provide a coached practice case, remove access or tool obstacles, then observe an independent case using the agreed criteria.",
+    "criteria": [
+      "Uses evidence rather than a personality label",
+      "Identifies the likely unmet outcome",
+      "Matches support to the barrier",
+      "Names observable follow-up evidence"
+    ]
+  },
+  "quiz": [
+    {
+      "prompt": "“Why are we changing?” most directly signals a question about…",
+      "options": [
+        "Awareness",
+        "Ability",
+        "Reinforcement"
+      ],
+      "key": 0,
+      "feedback": "The statement asks about the reason for change."
+    },
+    {
+      "prompt": "A colleague understands the need but does not want to participate. Investigate…",
+      "options": [
+        "Knowledge only",
+        "Desire",
+        "Reinforcement only"
+      ],
+      "key": 1,
+      "feedback": "Understanding the reason and willingness to participate are different outcomes."
+    },
+    {
+      "prompt": "A willing colleague cannot describe the required steps. Which support fits?",
+      "options": [
+        "Recognition only",
+        "Ignore the gap",
+        "Instruction and a usable guide"
+      ],
+      "key": 2,
+      "feedback": "The case suggests a Knowledge need; first check that earlier outcomes are supported."
+    },
+    {
+      "prompt": "A colleague explains the steps but struggles in practice. Which response fits?",
+      "options": [
+        "Coached practice and removal of performance obstacles",
+        "Repeat only the business case",
+        "Declare adoption complete"
+      ],
+      "key": 0,
+      "feedback": "Ability requires demonstrated performance, not just explanation."
+    },
+    {
+      "prompt": "People performed the new behavior, then reverted. What should you examine?",
+      "options": [
+        "Only their quiz marks",
+        "Reinforcement and the conditions sustaining the behavior",
+        "Whether ADKAR is a software system"
+      ],
+      "key": 1,
+      "feedback": "Follow-up should investigate the environment and reinforcement, while checking for new barriers."
+    }
+  ],
+  "jobaid": [
+    "Ask what evidence supports each outcome.",
+    "Look for the earliest unmet outcome.",
+    "Match the support to the barrier.",
+    "Observe again; do not equate attendance with adoption."
+  ],
+  "sources": [
+    [
+      "Prosci: ADKAR model",
+      "https://www.prosci.com/methodology/adkar"
+    ]
+  ],
+  "duration": "12–15 minutes",
+  "version": "1.0.0",
+  "brand": {
+    "name": "intuit turbotax",
+    "context": "Independent portfolio study",
+    "primary": "#C8202F",
+    "ink": "#172B32"
+  },
+  "disclosure": "Original fictional workplace scenarios. This independent portfolio sample is not official employer or vendor training."
+}
