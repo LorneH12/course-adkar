@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "archive": "course-adkar-scorm12.zip",
+  "sha256": "f3c5c5cf5a43d5f1c82771cc5c5aba3faf87ab94f1aefdaac6f0cdad1e22d141",
+  "checks": [
+    "Manifest parses",
+    "Launch target present",
+    "All manifest files present",
+    "SCORM 1.2 SCO declaration"
+  ],
+  "boundary": "Structural test, not schema conformance or Moodle import"
+}
